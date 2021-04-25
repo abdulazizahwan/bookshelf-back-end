@@ -6,7 +6,7 @@ const init = async () => {
         port: 5000,
         host: process.env.NODE_ENV === 'development'
         ? 'localhost'
-        : 'bookshelf-back-end.herokuapp.com/',
+        : 'bookshelf-back-end.herokuapp.com',
         routes: {
             cors: {
                 origin: ['*'],
