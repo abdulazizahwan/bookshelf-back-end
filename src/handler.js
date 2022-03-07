@@ -18,7 +18,7 @@ const addBookHandler = (request, h) => {
 
     if (!name) {
         /*
-        Client tidak melampirkan properti namepada request body.
+        Client tidak melampirkan properti name pada request body.
         Bila hal ini terjadi, maka server akan merespons dengan
         */
         const response = h.response({
